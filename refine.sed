@@ -28,6 +28,8 @@ s/ R / Thursdays /g
 
 s/ F / Fridays /g
 
+/CROSS LISTED:\( [A-Z]*-[0-9]*\)*.*/d
+
 s/PREREQUISITE:/Prerequisite:/g
 
 s/ *RECITATION.*/Recitations:/g
