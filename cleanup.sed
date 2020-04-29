@@ -1,4 +1,4 @@
-#!/bin/sed -f
+#!/usr/local/Cellar/gnu-sed/4.8/bin/gsed -f
 
 s/\(<p class="courseblocktitle noindent">\)\(<strong>\)*//
 
